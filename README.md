@@ -1,6 +1,24 @@
-# STM32 FreeRTOS UART Communication (Producer-Consumer Model)
+# 🚀 STM32 FreeRTOS Mastery Series & Advanced Embedded Architectures
 
 This project establishes an asynchronous serial communication (UART) and Real-Time Operating System (FreeRTOS) based "Producer-Consumer" infrastructure between two STM32 microcontrollers with different architectures (STM32F103RBT6 and STM32G030C8T6).
+
+---
+
+## 📂 Project Roadmap & Directory Structure
+
+This repository serves as a laboratory notebook for Embedded System Design. The projects are categorized by complexity:
+
+### [01. Multi-MCU Communication Bridge](./01_Multi_MCU_Communication_Bridge)
+*Flagship project (details below) focusing on Producer-Consumer logic between F1 and G0 boards.*
+
+### [02. FreeRTOS Master Series](./02_FreeRTOS_Master_Series)
+* **📁 01_Basics:** Task management, priorities, and blocking delay issues (Projects 002-006).
+* **📁 02_Synchronization:** Queues, Binary/Counting Semaphores, and Mutexes (Projects 007-009, 013).
+* **📁 03_Advanced:** Software Timers, Event Groups, and Task Notifications (Projects 010-012, 014+).
+
+---
+
+## 🏆 Flagship Module: UART Producer-Consumer Model
 
 ## 🛠️ Hardware Used
 * **Producer (Transmitter):** STM32 Nucleo-F103RBT6
